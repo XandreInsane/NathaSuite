@@ -19,7 +19,8 @@ echo 1 - Lancer Ip Url Dos
 echo 2 - Lancer Crack Pronote
 echo 3 - Lancer IP shutdown
 echo 4 - Lancer Scan Wifi
-echo 5 - Quitter
+echo 5 - lancer Graber Mot de passe wifi
+echo 6 - Quittez
 echo.
 
 set /p choix=Entree :
@@ -48,10 +49,15 @@ start startscan.bat
 cd..
 goto menu
 )
+if "%choix%"=="5" (
+cd PasswordWifi 
+start grabpassword.bat
+cd..
+goto menu
+)
 
 
-
-if "%choix%"=="5" (exit)
+if "%choix%"=="6" (exit)
 
 
 
