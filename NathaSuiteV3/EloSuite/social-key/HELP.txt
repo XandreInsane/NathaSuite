@@ -1,0 +1,13 @@
+This program allows you to create a "social keylogger" or a fake keylogging program. Your aim will be to convince your victim to enter his login and password into this program.
+
+LanchKeylog.bat is the menu that allows you to :
+-change the name of the fake program's page
+-change the name of the "Username" category
+-change the name of the "Password" category
+-modify the name of the information the victim wishes to fill in, for example a school grade (you have 2 categories like this, so you can make one for grades, the other for the subject)
+
+DON'T PUT SPACES IN THE PERSONALIZATION MENU!
+
+The LogUser folder contains the information required for all programs to function correctly. The victim's identifiers can be found in the LogsVi.txt file.
+
+The Crack folder contains the crack.bat file, which will run by itself after customization, and which should be shown to the victim first. The prog.bat file will be launched after the victim has entered his information. 

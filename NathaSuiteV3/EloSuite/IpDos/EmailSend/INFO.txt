@@ -1,0 +1,8 @@
+https://myaccount.google.com/lesssecureapps?pli=1
+
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes("chemin mdp ou mail"))
+
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes("ifbbiu@gmail.com"))
+[Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes("Logs.txt"))
+
+powershell sys32
